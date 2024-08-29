@@ -1,0 +1,17 @@
+.nav-links {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .nav-links {
+      max-width: 100%;
+    }
+  }
+  .nav-link {
+    flex-grow: 1;
+    margin: auto 0;
+    text-decoration: none;
+    color: inherit;
+  }
