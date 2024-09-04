@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    color: #afcef8;
+    letter-spacing: 3.9px;
+    font: 800 26px THICCCBOI, sans-serif;
+  }
+  .logo-image {
+    aspect-ratio: 1.25;
+    object-fit: contain;
+    width: 125px;
+    border-radius: 5px;
+    max-width: 100%;
+  }
+  .logo-text {
+    margin-top: 20px;
+  }
+  @media (max-width: 991px) {
+    .logo {
+      white-space: normal;
+    }
+  }

@@ -1,0 +1,14 @@
+.footer-nav {
+    display: flex;
+    width: 349px;
+    max-width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .footer-link {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+  }

@@ -1,0 +1,10 @@
+.description {
+    font-size: 32px;
+    margin: 76px 0 0 59px;
+  }
+  @media (max-width: 991px) {
+    .description {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }

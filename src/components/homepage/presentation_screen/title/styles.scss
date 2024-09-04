@@ -1,0 +1,10 @@
+.title {
+    font-size: 96px;
+    letter-spacing: 14.4px;
+  }
+  @media (max-width: 991px) {
+    .title {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }

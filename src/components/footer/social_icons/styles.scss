@@ -1,0 +1,10 @@
+.social-icons {
+    display: flex;
+    margin-top: 15px;
+    gap: 12px;
+  }
+  .social-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 30px;
+  }
