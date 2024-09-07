@@ -8,7 +8,7 @@ interface DescriptionProps {
 export const Description: React.FC<DescriptionProps> = ({ text }) => {
   return (
     <>
-      <p className="description">{text}</p>
+      <p className="presentation-description">{text}</p>
     </>
   );
 };

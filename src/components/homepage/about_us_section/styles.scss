@@ -5,36 +5,40 @@
   }
   
   .header {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   
   .title {
     color: #09326c;
-    font: 700 32px Inter, sans-serif;
-    margin-top: -8px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
   }
   
   .subtitle {
     color: #000;
+    font-size: 32px;
+    font-weight: 700;
     text-align: center;
-    font: 700 48px Inter, sans-serif;
-    margin-top: 54px;
   }
   
   .missionSection {
     background-color: rgba(175, 206, 248, 0.25);
     width: 100%;
-    padding: 0 69px;
-    margin-top: 115px;
+    padding: 0px 69px;
   }
   
   .missionContent {
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    padding: 0px 50px;
   }
   
   .imageWrapper {
-    flex: 0 0 43%;
+    flex: 0 0 35%;
   }
   
   .missionImage {
@@ -54,7 +58,8 @@
   
   .missionText {
     color: #09326c;
-    font: 500 30px THICCCBOI, sans-serif;
+    font: 500 26px THICCCBOI, sans-serif;
+    text-align: left;
   }
   
   .learnMoreButton {
@@ -64,10 +69,10 @@
     align-self: center;
     margin-top: 61px;
     width: 200px;
-    font-size: 26px;
+    font-size: 18px;
     color: #fff;
     font-weight: 700;
-    padding: 21px 33px;
+    padding: 15px 25px;
     border: none;
     cursor: pointer;
   }

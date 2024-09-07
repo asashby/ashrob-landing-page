@@ -12,7 +12,7 @@
   }
   .services-subtitle {
     color: #000;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 40px;
@@ -20,34 +20,9 @@
   .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 100%;
+    gap: 50px 125px;
+    width: 75%;
     max-width: 1200px;
-  }
-  .service-card {
-    background-color: #09326c;
-    border-radius: 5px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 26px;
-    text-align: center;
-  }
-  .service-icon {
-    width: 65px;
-    height: 65px;
-    object-fit: contain;
-  }
-  .service-title {
-    font-size: 26px;
-    font-weight: 700;
-    margin: 14px 0;
-  }
-  .service-description {
-    font-size: 18px;
-    font-weight: 500;
   }
   @media (max-width: 991px) {
     .services-subtitle {

@@ -8,8 +8,10 @@ const Header: React.FC = () => {
   return (
     <header className="navbar">
       <Logo />
-      <NavLinks />
-      <LanguageSelector />
+      <div className='navbar-actions-container'>
+        <NavLinks />
+        <LanguageSelector />
+      </div>
     </header>
   );
 };

@@ -1,9 +1,9 @@
 .footer-nav {
     display: flex;
-    width: 349px;
+    width: 1000px;
     max-width: 100%;
-    gap: 20px;
     justify-content: space-between;
+    margin-top: 50px;
   }
   .footer-link {
     font-size: 20px;
@@ -11,4 +11,9 @@
     color: #fff;
     text-decoration: none;
     font-family: Inter, sans-serif;
+    width: 100px;
+  }
+
+  .footer-link:hover{
+    color: #afcef8;
   }

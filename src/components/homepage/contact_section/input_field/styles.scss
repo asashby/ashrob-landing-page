@@ -3,6 +3,16 @@
     width: 100%;
   }
   .input-field {
+    width: 95%;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 17px 20px;
+    border: 1px solid #000;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    align-items: start;
+  }
+  .comment-input-field {
     width: 100%;
     border-radius: 5px;
     background-color: #fff;
@@ -10,9 +20,7 @@
     border: 1px solid #000;
     color: rgba(0, 0, 0, 0.5);
     font-size: 24px;
-  }
-  textarea.input-field {
-    height: 200px;
+    height: 300px;
     resize: vertical;
   }
   .visually-hidden {

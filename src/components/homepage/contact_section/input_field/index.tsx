@@ -18,7 +18,7 @@ const InputField: React.FC<InputFieldProps> = ({ name, label, type }) => {
         id={name}
         name={name}
         placeholder={label}
-        className="input-field"
+        className={isTextarea ? "comment-input-field" : "input-field"}
         type={isTextarea ? undefined : type}
       />
     </div>

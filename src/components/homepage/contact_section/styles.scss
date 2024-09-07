@@ -9,7 +9,7 @@
     font: 400 24px Inter, sans-serif;
   }
   .contact-header {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
   .contact-title {
     display: flex;
@@ -37,6 +37,7 @@
     display: flex;
     gap: 40px;
     margin-bottom: 47px;
+    justify-content: space-between;
   }
   @media (max-width: 991px) {
     .contact-section {

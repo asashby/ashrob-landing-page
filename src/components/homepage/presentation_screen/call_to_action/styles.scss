@@ -1,11 +1,11 @@
 .cta-button {
     border-radius: 5px;
     background-color: #09326c;
-    margin-top: 65px;
-    width: 282px;
+    margin-top: 15px;
+    width: auto;
     max-width: 100%;
-    font-size: 26px;
-    padding: 14px 29px 22px;
+    font-size: 16px;
+    padding: 14px 20px;
     color: #fff;
     font-weight: 700;
     border: none;
@@ -13,7 +13,7 @@
   }
   @media (max-width: 991px) {
     .cta-button {
-      margin-top: 40px;
+      margin-top: 15px;
       padding: 14px 20px;
     }
   }
