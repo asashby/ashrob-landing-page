@@ -1,0 +1,30 @@
+{
+    "services" : {
+        "title" : "Our Services",
+        "subtitle" : "High quality solutions in civil construction",
+        "design" : {
+            "title" : "Design & Build",
+            "description" : "A seamless process from concept to completion, combining innovative design with expert construction to bring your vision to life."
+        },
+        "construction" : {
+            "title" : "Construction",
+            "description" : "High-quality construction services that ensure your project is built to last, with attention to detail and commitment to safety."
+        },
+        "interior" : {
+            "title" : "Interior Design",
+            "description" : "Transforming spaces with thoughtful design, creating environments that are both functional and aesthetically pleasing."
+        },
+        "renovation" : {
+            "title" : "Remodels & Renovations",
+            "description" : "Revitalize your space with expert remodeling and renovation services, tailored to meet your specific needs and style."
+        },
+        "management" : {
+            "title" : "Site Management",
+            "description" : "Efficient and reliable site management, ensuring your project stays on schedule and within budget."
+        },
+        "consultation" : {
+            "title" : "Consultation",
+            "description" : "Professional advice and guidance at every stage of your project, helping you make informed decisions and achieve the best results."
+        }
+    }
+}

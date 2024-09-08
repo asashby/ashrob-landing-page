@@ -1,0 +1,30 @@
+{
+    "services" : {
+        "title" : "Nuestros Servicios",
+        "subtitle" : "Soluciones de alta calidad en construcción civil",
+        "design" : {
+            "title" : "Diseño & Ejecución",
+            "description" : "Un proceso fluido desde el concepto hasta la finalización, que combina un diseño innovador con una construcción experta para hacer realidad su visión."
+        },
+        "construction" : {
+            "title" : "Construcción",
+            "description" : "Servicios de construcción de alta calidad que garantizan que tu proyecto sea duradero, con atención al detalle y compromiso con la seguridad."
+        },
+        "interior" : {
+            "title" : "Diseño Interior",
+            "description" : "Transformamos espacios con un diseño pensado, creando ambientes que sean funcionales y estéticamente agradables."
+        },
+        "renovation" : {
+            "title" : "Remodelaciones & Renovaciones",
+            "description" : "Revitaliza tu espacio con servicios expertos de remodelación y renovación, diseñados para satisfacer tus necesidades y estilo específicos."
+        },
+        "management" : {
+            "title" : "Administración",
+            "description" : "Gestión del sitio eficiente y confiable, garantizando que tu proyecto se mantenga dentro del cronograma y el presupuesto."
+        },
+        "consultation" : {
+            "title" : "Consultoría",
+            "description" : "Asesoramiento y orientación profesional en cada etapa de tu proyecto, ayudándote a tomar decisiones informadas y lograr los mejores resultados."
+        }
+    }
+}

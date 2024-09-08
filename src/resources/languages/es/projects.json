@@ -1,0 +1,26 @@
+{
+    "projects" : {
+        "title" : "Proyectos",
+        "on_sale" : "En venta",
+        "almost_gone" : "Por agotarse",
+        "sold_out" : "Vendido",
+        "projects" : {
+            "sunshine_1" : {
+                "title" : "Sunshine I",
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "location" : "Bavaro, Punta Cana, RD"
+            },
+            "sunshine_2" : {
+                "title" : "Sunshine II",
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "location" : "Bavaro, Punta Cana, RD"
+            },
+            "sunshine_3" : {
+                "title" : "Sunshine III",
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "location" : "Bavaro, Punta Cana, RD"
+            }
+        },
+        "details_btn" : "Detalles"
+    }
+}

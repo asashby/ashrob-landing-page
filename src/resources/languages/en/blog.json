@@ -1,0 +1,23 @@
+{
+    "blog" : {
+        "title" : "News & Articles",
+        "articles" : {
+            "article_1" : {
+                "title" : "Loren ipsum dolor sit amet",
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "date" : "September 10th, 2024"
+            },
+            "article_2" : {
+                "title" : "Loren ipsum dolor sit amet",
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "date" : "September 10th, 2024"
+            },
+            "article_3" : {
+                "title" : "Loren ipsum dolor sit amet",
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "date" : "September 10th, 2024"
+            }
+        },
+        "btn_prompt" : "Learn more"
+    }
+}
