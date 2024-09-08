@@ -1,0 +1,36 @@
+.input-wrapper {
+    flex-grow: 1;
+    width: 100%;
+  }
+  .input-field {
+    width: 90%;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 17px 20px;
+    border: 1px solid #000;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    align-items: start;
+  }
+  .comment-input-field {
+    width: 95%;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 17px 20px;
+    border: 1px solid #000;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    height: 300px;
+    resize: vertical;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }

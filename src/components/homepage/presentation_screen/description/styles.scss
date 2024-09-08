@@ -1,0 +1,10 @@
+.presentation-description {
+    font-size: 26px;
+    margin-top: 35px;
+  }
+  @media (max-width: 991px) {
+    .presentation-description {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }

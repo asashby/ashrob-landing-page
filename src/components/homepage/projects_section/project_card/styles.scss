@@ -1,0 +1,130 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    border-radius:  0 0 15px 15px;
+    margin-bottom: 98px;
+    width: 150vh;
+    max-width: 1200px;
+  }
+  .image-container {
+    position: relative;
+    height: 453px;
+    border-radius: 15px 15px 0 0;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 90%, rgb(255, 255, 255) 100%);
+  }
+  .project-image {
+    position: relative;
+    z-index:-1;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    mix-blend-mode: overlay;
+  }
+  .content-container {
+    padding: 21px 18px;
+    font-family: Inter, sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 51px;
+  }
+  .project-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin: 0;
+    text-align: left;
+  }
+  .project-location {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    margin: 13px 0 0;
+  }
+  .status-ribbon {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: auto; 
+    margin-right: 0;
+    text-transform: uppercase;
+  }
+  .status-ribbon {
+    --f: .5em; /* control the folded part*/
+    --r: .8em; /* control the ribbon shape */
+    
+    padding-inline: 1em;
+    line-height: 1.8;
+    border-bottom: var(--f) solid #0005;
+    border-left: var(--r) solid #0000;
+    clip-path: 
+      polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 78%,
+        calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)),
+        var(--r) calc(50% - var(--f)/2));
+  }
+  .status-icon {
+    width: 22px;
+    height: 33.8px;
+  }
+  .status-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+  }
+  .project-description {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 48px;
+    text-align: left;
+    overflow: hidden; 
+    height: 48px;
+    line-height: 16px;
+    position: relative;
+    word-wrap: break-word;
+  }
+  .project-description:after { content: "..."; position :absolute; right: 0; bottom: 2px;}
+
+  .details-button {
+    float: right;
+    background-color: rgba(9, 50, 108, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .details-button:hover {
+    background-color: #0a4085;
+  }
+
+  @media (max-width: 991px) {
+    .project-card {
+      margin-bottom: 40px;
+    }
+    .image-container {
+      height: auto;
+      min-height: 300px;
+    }
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .project-description {
+      margin-bottom: 40px;
+    }
+    .details-button {
+      align-self: center;
+      padding: 11px 30px;
+    }
+  }

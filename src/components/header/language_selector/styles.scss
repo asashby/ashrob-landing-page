@@ -3,7 +3,11 @@
     gap: 18px;
     font-size: 14px;
     white-space: nowrap;
-    margin: auto 0;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto; 
+    margin-right: 0;
   }
   @media (max-width: 991px) {
     .language-selector {
@@ -28,5 +32,10 @@
   }
   .language-code {
     align-self: flex-start;
+    text-transform: uppercase;
     margin: auto 0;
+  }
+
+  .language-code:hover{
+    color: #afcef8;
   }

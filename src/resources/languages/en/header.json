@@ -1,0 +1,9 @@
+{
+    "header" : {
+        "services" : "Services",
+        "about_us" : "About Us",
+        "projects" : "Projects",
+        "blog" : "Blog",
+        "contact" : "Contact"
+    }
+}

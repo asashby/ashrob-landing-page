@@ -1,0 +1,14 @@
+{
+    "contact" : {
+        "title_1" : "Entra en",
+        "title_2" : "contacto",
+        "description_1" : "Nos encantaría escuchar sobre ti y estaríamos felices de discutir la solución correcta para construir el hogar de tus sueños.",
+        "description_2" : "Contáctanos ahora:",
+        "first_name" : "Nombre",
+        "last_name" : "Apellidos",
+        "email" : "Tu Correo",
+        "phone" : "Teléfono",
+        "message" : "Mensaje",
+        "btn_prompt" : "Enviar"
+    }
+}

@@ -1,0 +1,35 @@
+.services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  .services-title {
+    color: #09326c;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .services-subtitle {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 125px;
+    width: 75%;
+    max-width: 1200px;
+  }
+  @media (max-width: 991px) {
+    .services-subtitle {
+      font-size: 40px;
+    }
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }

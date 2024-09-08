@@ -1,0 +1,12 @@
+{
+    "footer" : {
+        "services" : "Services",
+        "about_us" : "About Us",
+        "projects" : "Projects",
+        "blog" : "Blog",
+        "contact" : "Contact",
+        "follow_us" : "Follow us:",
+        "terms" : "Terms of use",
+        "privacy" : "Privacy policy"
+    }
+}

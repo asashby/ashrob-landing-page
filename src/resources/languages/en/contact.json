@@ -1,0 +1,14 @@
+{
+    "contact" : {
+        "title_1" : "Get in",
+        "title_2" : "touch",
+        "description_1" : "We'd love to hear from you and are happy to discuss the right solution to build your dream home.",
+        "description_2" : "Contact us now on:",
+        "first_name" : "First Name",
+        "last_name" : "Last Name",
+        "email" : "Your Email",
+        "phone" : "Your Phone",
+        "message" : "Message",
+        "btn_prompt" : "Submit"
+    }
+}
