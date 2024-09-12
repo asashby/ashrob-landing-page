@@ -6,10 +6,9 @@ import { useTranslation } from "react-i18next";
 
 interface ContactSectionProps {
   onSubmit: (formData: FormData) => void;
-  ref: any;
 }
 
-const ContactSection: React.FC<ContactSectionProps> = ({ onSubmit, ref }) => {
+const ContactSection: React.FC<ContactSectionProps> = ({ onSubmit }) => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
@@ -19,9 +18,9 @@ const ContactSection: React.FC<ContactSectionProps> = ({ onSubmit, ref }) => {
   const [t, i18n] = useTranslation("contact");
 
   return (
-    <section className="contact-section">
+    <section className="contact-section"  id='contact-section-ref'>
       <header className="contact-header">
-        <h2 className="contact-title" ref={ref}>
+        <h2 className="contact-title">
           <span className="contact-title-main">{t("contact.title_1")}</span>
           <span className="contact-title-accent">{t("contact.title_2")}</span>
         </h2>

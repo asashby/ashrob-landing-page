@@ -8,15 +8,7 @@ import ContactSection from "./contact_section/index.tsx";
 import './styles.scss';
 import { useTranslation } from "react-i18next";
 
-interface HomePageProps {
-    aboutUsRef: any;
-    servicesRef: any;
-    projectsRef: any;
-    blogRef: any;
-    contactRef: any;
-}
-
-const HomePage: React.FC<HomePageProps> = ({aboutUsRef, servicesRef, projectsRef, blogRef, contactRef}) => {
+const HomePage: React.FC = () => {
     
     const [t, i18n] = useTranslation("presentation");
     
@@ -27,11 +19,11 @@ const HomePage: React.FC<HomePageProps> = ({aboutUsRef, servicesRef, projectsRef
                 title={t("presentation.title")}
                 description={t("presentation.subtitle")}
                 ctaText={t("presentation.btn_prompt")}/>
-            <AboutUsSection ref={aboutUsRef}/>
-            <ServicesSection ref={servicesRef}/>
-            <ProjectsSection ref={projectsRef}/>
-            <NewsSection ref={blogRef}/>
-            <ContactSection onSubmit={() => {}} ref={contactRef}/>
+            <AboutUsSection/>
+            <ServicesSection/>
+            <ProjectsSection/>
+            <NewsSection/>
+            <ContactSection onSubmit={() => {}}/>
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import { ProjectData } from '../types.ts';
 import './styles.scss';
+import { NavLink } from 'react-router-dom';
 
 interface ProjectCardProps {
   project: ProjectData;
@@ -14,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, btn_prompt }) => {
         <img src={project.imageUrl} alt={`${project.title} project`} className="project-image" />
       </div>
       <div className="content-container">
-        <div className="header">
+        <div className="project-content-header">
           <div className="title-location">
             <h2 className="project-title">{project.title}</h2>
             <p className="project-location">{project.location}</p>
@@ -22,7 +23,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, btn_prompt }) => {
           <div className="status-ribbon" style={{ backgroundColor: project.statusColor }}>{project.status}</div>
         </div>
         <p className="project-description">{project.description}</p>
-        <button className="details-button">{btn_prompt}</button>
+        <NavLink to={"/projects/" + project.tag}>
+          <button className="details-button">{btn_prompt}</button>
+        </NavLink>
       </div>
     </article>
   );

@@ -1,0 +1,41 @@
+{
+    "project_details": {
+        "description": "Description",
+        "nearby": "What's nearby?",
+        "payment_info": "Payment information",
+        "areas": "Areas",
+        "spaces_title": "Spaces",
+        "spaces": {
+            "floors": "Floors",
+            "bathrooms": "Bathrooms",
+            "bedrooms": "Bedrooms",
+            "parking": "Parking spots"
+        },
+        "surfaces_title": "Surfaces",
+        "surfaces": {
+            "land_area": "Land area",
+            "living_area": "Living area"
+        },
+        "amenities_title": "Amenities",
+        "amenities": {
+            "backyard": "Backyard",
+            "kitchen": "Kitchen",
+            "pool": "Pool",
+            "laundry": "Laundry"
+        },
+        "location": "Location",
+        "close_to_title": "Close to",
+        "close_to": {
+            "park": "Park",
+            "school": "School",
+            "shops": "Shops",
+            "gym": "Gym",
+            "hospital": "Hospital",
+            "airport": "Airport",
+            "banks": "Banks",
+            "golf": "Golf"
+        },
+        "contact": "Contact",
+        "whatsapp_prompt": "Chat via WhatsApp" 
+    }
+}

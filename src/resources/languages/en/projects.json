@@ -8,17 +8,41 @@
             "sunshine_1" : {
                 "title" : "Sunshine I",
                 "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "location" : "Bavaro, Punta Cana, DR"
+                "location" : "Bavaro, Punta Cana, DR",
+                "priceText" : "From US$185,000",
+                "placesNearby" : {
+                    "beach" : "Bavaro Beach",
+                    "downtown" : "Downtown Punta Cana",
+                    "airport" : "Punta Cana International airport",
+                    "island" : "Saona Island"
+                },
+                "paymentInformation" : "Reserve with just $2,000. <br> <br> Contract signing: 20% within 30 days. <br> <br> During construction: 30%. <br> <br> Delivery: 50%."
+            },
+            "sunpalm_resident_i" : {
+                "title" : "Sun Palm Resident I",
+                "description" : "Beautiful and exclusive residential project of only 6 Villas, 7 minutes from the Airport and 3 minutes from Coco Bongo and the main Malls, Shops, Supermarkets and Banks. <br><br> Gated complex with double access from Bulevar del Coral and Ave. Barceló with 24-hour security, security checkpoint and vehicular entrance with remote control barrier.  <br><br> 2 and 3 bedroom villas with Jacuzzi",
+                "location" : "Bavaro, Punta Cana, DR",
+                "priceText" : "From US$124,500",
+                "placesNearby" : {
+                    "beach" : "Bavaro Beach",
+                    "downtown" : "Downtown Punta Cana",
+                    "airport" : "Punta Cana International airport",
+                    "island" : "Saona Island"
+                },
+                "paymentInformation" : "Reserve with just $2,000. <br> <br> Contract signing: 20% within 30 days. <br> <br> During construction: 30%. <br> <br> Delivery: 50%."
             },
             "sunshine_2" : {
                 "title" : "Sunshine II",
                 "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "location" : "Bavaro, Punta Cana, DR"
-            },
-            "sunshine_3" : {
-                "title" : "Sunshine III",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "location" : "Bavaro, Punta Cana, DR"
+                "location" : "Bavaro, Punta Cana, DR",
+                "priceText" : "From US$124,500",
+                "placesNearby" : {
+                    "beach" : "Bavaro Beach",
+                    "downtown" : "Downtown Punta Cana",
+                    "airport" : "Punta Cana International airport",
+                    "island" : "Saona Island"
+                },
+                "paymentInformation" : "Reserve with just $2,000. <br> <br> Contract signing: 20% within 30 days. <br> <br> During construction: 30%. <br> <br> Delivery: 50%."
             }
         },
         "details_btn" : "Details"
