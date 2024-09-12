@@ -31,7 +31,7 @@ const NewsSection: React.FC = () => {
   return (
     <>
       <section className="news-articles-section" id='news-section-ref'>
-        <h2 className="section-title">{t("blog.title")}</h2>
+        <h2 className="news-section-title">{t("blog.title")}</h2>
         <div className="articles-container">
           <div className="articles-row">
             <div className="side-column">

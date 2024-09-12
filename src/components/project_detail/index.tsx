@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.scss';
 import Amenities from './amenities/index.tsx';
+import Areas from './areas/index.tsx';
 import ContactInfo from './contact_info/index.tsx';
 import ImageGalleryComponent from './image_gallery/index.tsx';
 import Location from './location/index.tsx';
@@ -36,15 +37,22 @@ const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({project}) => {
       </div>
       <div className="property-main">
         <PropertyDetails project={projectData} />
-        <Amenities />
-        <Location location={projectData.mapLocation}/>
-        <NearbyPlaces />
-        <ContactInfo 
-            profilePic={projectData.contact.profilePic}
-            name={projectData.contact.name}
-            phone={projectData.contact.phone}
-            email={projectData.contact.email}
-        />
+        <div className="specific-details-container">
+          <div>
+            <Areas project={projectData}/>
+            <Amenities />
+            <NearbyPlaces />
+            <ContactInfo 
+                profilePic={projectData.contact.profilePic}
+                name={projectData.contact.name}
+                phone={projectData.contact.phone}
+                email={projectData.contact.email}
+            />
+          </div>
+          <div>
+            <Location location={projectData.mapLocation}/>
+          </div>
+        </div>
       </div>
     </div>
   );

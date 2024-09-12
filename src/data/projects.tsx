@@ -81,7 +81,7 @@ function GetProjectsData(){
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-24.jpg",
             },
           ],
-          paymentInformation: '',
+          paymentInformation: t("projects.projects.sunshine_1.paymentInformation"),
           areas: {
             spaces: {
               floors: '2-3',
@@ -112,7 +112,7 @@ function GetProjectsData(){
             golf: true
           },
           contact: {
-            profilePic: 'https://cdn.builder.io/api/v1/image/assets/TEMP/4b8665c4016f61876c702616ebac55b067f060bcadf0f8a7d0b9595055de23bb?placeholderIfAbsent=true&apiKey=c2c728d5f8434b5c80efdb166787b294',
+            profilePic: 'https://ashrob-media.s3.us-east-2.amazonaws.com/rob.jpg',
             name: 'Robin Hernandez',
             email: 'royaxsa04@gmail.com',
             phone: '1 (849) 260-8818'
@@ -257,7 +257,7 @@ function GetProjectsData(){
             golf: false
           },
           contact: {
-            profilePic: '',
+            profilePic: 'https://ashrob-media.s3.us-east-2.amazonaws.com/rob.jpg',
             name: 'Robin Hernandez',
             email: 'royaxsa04@gmail.com',
             phone: '1 (849) 260-8818'

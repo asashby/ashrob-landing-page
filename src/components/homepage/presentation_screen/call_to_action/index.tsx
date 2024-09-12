@@ -8,7 +8,14 @@ interface CallToActionProps {
 export const CallToAction: React.FC<CallToActionProps> = ({ text }) => {
   return (
     <>
-      <button className="cta-button">{text}</button>
+      <button className="cta-button" onClick={() =>{
+        const element = document.getElementById('projects-section-ref');
+        element?.scrollIntoView({
+          behavior: 'smooth'
+        })
+      }}>
+        {text}
+      </button>
     </>
   );
 };
