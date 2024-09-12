@@ -1,39 +1,25 @@
 import React, { MutableRefObject } from 'react';
 import './styles.scss';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
-interface NavLinksProps {
-  aboutUsRef: any;
-  servicesRef: any;
-  projectsRef: any;
-  blogRef: any;
-  contactRef: any;
-}
-
-const NavLinks: React.FC<NavLinksProps> = ({aboutUsRef, servicesRef, projectsRef, blogRef, contactRef}) => {
+const NavLinks: React.FC = () => {
   const [t, i18n] = useTranslation("header");
-  const scrollToAboutUs = () => {
-    const element = document.getElementById("about-us-title");
-    element!.scrollIntoView();
+
+  function scrollToElement(elementId){
+    const element = document.getElementById(elementId);
+    element?.scrollIntoView({
+      behavior: 'smooth'
+    })
   }
 
   return (
     <nav className="nav-links">
-      <a key={t("header.about_us")} className="nav-link">
-        {t("header.about_us")}
-      </a>
-      <a key={t("header.services")} className="nav-link">
-        {t("header.services")}
-      </a>
-      <a key={t("header.projects")} className="nav-link">
-        {t("header.projects")}
-      </a>
-      <a key={t("header.blog")} className="nav-link">
-        {t("header.blog")}
-      </a>
-      <a key={t("header.contact")} className="nav-link">
-        {t("header.contact")}
-      </a>
+      <Link to="/#about-us-section-ref" className="nav-link">{t("header.about_us")}</Link>
+      <Link to="/#services-section-ref" className="nav-link">{t("header.services")}</Link>
+      <Link to="/#projects-section-ref" className="nav-link">{t("header.projects")}</Link>
+      <Link to="/#news-section-ref" className="nav-link">{t("header.blog")}</Link>
+      <Link to="/#contact-section-ref" className="nav-link">{t("header.contact")}</Link>
     </nav>
   );
 };

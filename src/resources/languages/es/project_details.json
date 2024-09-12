@@ -1,0 +1,41 @@
+{
+    "project_details": {
+        "description": "Descripción",
+        "nearby": "¿Qué hay cerca?",
+        "payment_info": "Información de pago",
+        "areas": "Areas",
+        "spaces_title": "Espacios",
+        "spaces": {
+            "floors": "Pisos",
+            "bathrooms": "Baños",
+            "bedrooms": "Habitaciones",
+            "parking": "Parqueos"
+        },
+        "surfaces_title": "Superficies",
+        "surfaces": {
+            "land_area": "Terreno",
+            "living_area": "Hogar"
+        },
+        "amenities_title": "Comodidades",
+        "amenities": {
+            "backyard": "Patio",
+            "kitchen": "Cocina",
+            "pool": "Piscina",
+            "laundry": "Lavadora"
+        },
+        "location": "Ubicación",
+        "close_to_title": "Cerca de",
+        "close_to": {
+            "park": "Parque",
+            "school": "Escuela",
+            "shops": "Tiendas",
+            "gym": "Gimnasio",
+            "hospital": "Hospital",
+            "airport": "Aeropuerto",
+            "banks": "Bancos",
+            "golf": "Golf"
+        },
+        "contact": "Contacto",
+        "whatsapp_prompt": "Chat por WhatsApp" 
+    }
+}

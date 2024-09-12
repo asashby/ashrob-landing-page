@@ -7,18 +7,42 @@
         "projects" : {
             "sunshine_1" : {
                 "title" : "Sunshine I",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "location" : "Bavaro, Punta Cana, RD"
+                "description" : "Proyecto de 17 Villas estilo dúplex con diseño moderno y elegante a tan solo 3 minutos de la playa.\n\nRecinto cerrado con garita de seguridad controlada las 24 horas y entrada vehicular.\nVillas de 2 y 3 habitaciones con su baño.",
+                "location" : "Bavaro, Punta Cana, RD",
+                "priceText" : "Desde US$185,000",
+                "placesNearby" : {
+                    "beach" : "Playa Bávaro",
+                    "downtown" : "Downtown Punta Cana",
+                    "airport" : "Aeropuerto Internacional de Punta Cana",
+                    "island" : "Isla Saona"
+                },
+                "paymentInformation" : "Reserva con solo US$3,000.\nFirma del contrato: 20% dentro de 30 días.\nDurante la construcción: 30%.\nEntrega: 50%."
+            },
+            "sunpalm_resident_i" : {
+                "title" : "Sun Palm Resident I",
+                "description" : "Hermoso y exclusivo proyecto residencial de sólo 6 Villas, a 7 minutos del Aeropuerto y 3 minutos de Coco Bongo y los principales Mall, Tiendas, Supermercados y Bancos. Complejo cerrado con doble acceso por el Bulevar del Coral y por la Ave. Barceló con seguridad 24 horas, garita de seguridad y entrada vehicular con barrera a control remoto. Villas de 2 y 3 habitaciones con Jacuzzi",
+                "location" : "Bavaro, Punta Cana, RD",
+                "priceText" : "Desde US$124,500",
+                "placesNearby" : {
+                    "beach" : "Playa Bávaro",
+                    "downtown" : "Downtown Punta Cana",
+                    "airport" : "Aeropuerto Internacional de Punta Cana",
+                    "island" : "Isla Saona"
+                },
+                "paymentInformation" : "Reserva con solo US$2,000.\nFirma del contrato: 20% dentro de 30 días.\nDurante la construcción: 30%.\nEntrega: 50%."
             },
             "sunshine_2" : {
                 "title" : "Sunshine II",
                 "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "location" : "Bavaro, Punta Cana, RD"
-            },
-            "sunshine_3" : {
-                "title" : "Sunshine III",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "location" : "Bavaro, Punta Cana, RD"
+                "location" : "Bavaro, Punta Cana, RD",
+                "priceText" : "Desde US$185,000",
+                "placesNearby" : {
+                    "beach" : "Playa Bávaro",
+                    "downtown" : "Downtown Punta Cana",
+                    "airport" : "Aeropuerto Internacional de Punta Cana",
+                    "island" : "Isla Saona"
+                },
+                "paymentInformation" : "Reserva con solo US$2,000.\nFirma del contrato: 20% dentro de 30 días.\nDurante la construcción: 30%.\nEntrega: 50%."
             }
         },
         "details_btn" : "Detalles"

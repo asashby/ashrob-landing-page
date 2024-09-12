@@ -3,11 +3,7 @@ import ServiceCard from './service_card/index.tsx';
 import { useTranslation } from "react-i18next";
 import './styles.scss';
 
-interface ServicesSectionProps {
-    ref: any;
-}
-
-const ServicesSection: React.FC<ServicesSectionProps> = ({ref}) => {
+const ServicesSection: React.FC = () => {
     
   const [t, i18n] = useTranslation("services");
   const services = [
@@ -44,8 +40,8 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({ref}) => {
   ];
 
   return (
-    <section className="services-section">
-      <h2 className="services-title" ref={ref}>{t("services.title")}</h2>
+    <section className="services-section" id='services-section-ref'>
+      <h2 className="services-title">{t("services.title")}</h2>
       <h3 className="services-subtitle">{t("services.subtitle")}</h3>
       <div className="services-grid">
         {services.map((service, index) => (

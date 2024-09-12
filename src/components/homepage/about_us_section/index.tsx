@@ -2,18 +2,14 @@ import React from 'react';
 import './styles.scss';
 import { useTranslation } from "react-i18next";
 
-interface AboutUsSectionProps {
-    ref: any;
-}
-
-const AboutUsSection: React.FC<AboutUsSectionProps> = ({ref}) => {
+const AboutUsSection: React.FC = () => {
     
     const [t, i18n] = useTranslation("about_us");
 
     return (
         <main className="aboutUsContainer">
             <div className="header">
-                <h1 className="about-us-title" ref={ref}>{t("about_us.title")}</h1>
+                <h1 className="about-us-title" id='about-us-section-ref'>{t("about_us.title")}</h1>
                 <h2 className="subtitle">{t("about_us.subtitle")}</h2>
             </div>
             <section className="missionSection">

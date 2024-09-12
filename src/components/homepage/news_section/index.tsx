@@ -3,11 +3,7 @@ import ArticleCard from './article_card/index.tsx';
 import './styles.scss';
 import { useTranslation } from "react-i18next";
 
-interface NewsSectionProps {
-    ref: any;
-}
-
-const NewsSection: React.FC<NewsSectionProps> = ({ref}) => {
+const NewsSection: React.FC = () => {
     
   const [t, i18n] = useTranslation("blog");
 
@@ -34,8 +30,8 @@ const NewsSection: React.FC<NewsSectionProps> = ({ref}) => {
 
   return (
     <>
-      <section className="news-articles-section">
-        <h2 className="section-title" ref={ref}>{t("blog.title")}</h2>
+      <section className="news-articles-section" id='news-section-ref'>
+        <h2 className="news-section-title">{t("blog.title")}</h2>
         <div className="articles-container">
           <div className="articles-row">
             <div className="side-column">

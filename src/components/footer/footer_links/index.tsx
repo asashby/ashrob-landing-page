@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.scss';
+import { Link } from 'react-router-dom';
 
 interface FooterLinksProps {
   about_us: string;
@@ -12,11 +13,11 @@ interface FooterLinksProps {
 const FooterLinks: React.FC<FooterLinksProps> = ({about_us, services, projects, blog, contact}) => {
   return (
     <nav className="footer-nav">
-      <a href="/about" className="footer-link">{about_us}</a>
-      <a href="/services" className="footer-link">{services}</a>
-      <a href="/projects" className="footer-link">{projects}</a>
-      <a href="/blog" className="footer-link">{blog}</a>
-      <a href="/contact" className="footer-link">{contact}</a>
+      <Link to="/#about-us-section-ref" className="footer-link">{about_us}</Link>
+      <Link to="/#services-section-ref" className="footer-link">{services}</Link>
+      <Link to="/#projects-section-ref" className="footer-link">{projects}</Link>
+      <Link to="/#news-section-ref" className="footer-link">{blog}</Link>
+      <Link to="/#contact-section-ref" className="footer-link">{contact}</Link>
     </nav>
   );
 };
