@@ -4,10 +4,13 @@ import './styles.scss';
 interface InputFieldProps {
   name: string;
   label: string;
-  type: 'text' | 'email' | 'tel' | 'textarea';
+  type: 'text' | 'email' | 'tel' | 'number' | 'textarea';
+  value: string;
+  onChange: any;
+  ref: any;
 }
 
-const InputField: React.FC<InputFieldProps> = ({ name, label, type }) => {
+const InputField: React.FC<InputFieldProps> = ({ name, label, type, value, onChange, ref }) => {
   const isTextarea = type === 'textarea';
   const InputComponent = isTextarea ? 'textarea' : 'input';
 
@@ -20,6 +23,9 @@ const InputField: React.FC<InputFieldProps> = ({ name, label, type }) => {
         placeholder={label}
         className={isTextarea ? "comment-input-field" : "input-field"}
         type={isTextarea ? undefined : type}
+        value={value}
+        onChange={onChange}
+        ref={ref}
       />
     </div>
   );
