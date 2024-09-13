@@ -42,12 +42,7 @@ const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({project}) => {
             <Areas project={projectData}/>
             <Amenities />
             <NearbyPlaces />
-            <ContactInfo 
-                profilePic={projectData.contact.profilePic}
-                name={projectData.contact.name}
-                phone={projectData.contact.phone}
-                email={projectData.contact.email}
-            />
+            <ContactInfo contacts={projectData.contacts}/>
           </div>
           <div>
             <Location location={projectData.mapLocation}/>
