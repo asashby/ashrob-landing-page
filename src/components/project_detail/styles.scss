@@ -241,6 +241,11 @@
 .contact-info {
   margin-top: 30px;
 }
+.contact-details-container {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
 
 .contact-details {
   display: flex;
@@ -279,6 +284,7 @@
   border-radius: 5px;
   float: left;
   margin-top: 15px;
+  width: max-content;
 }
 
 .whatsapp-icon {

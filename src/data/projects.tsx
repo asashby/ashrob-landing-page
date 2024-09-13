@@ -111,12 +111,14 @@ function GetProjectsData(){
             banks: true,
             golf: true
           },
-          contact: {
-            profilePic: 'https://ashrob-media.s3.us-east-2.amazonaws.com/rob.jpg',
-            name: 'Robin Hernandez',
-            email: 'royaxsa04@gmail.com',
-            phone: '1 (849) 260-8818'
-          }
+          contacts:[
+            {
+              profilePic: 'https://ashrob-media.s3.us-east-2.amazonaws.com/rob.jpg',
+              name: 'Robin Hernandez',
+              email: 'royaxsa04@gmail.com',
+              phone: '1 (849) 260-8818'
+            }
+          ]
         },
         {
           id: 2,
@@ -207,14 +209,22 @@ function GetProjectsData(){
             banks: true,
             golf: true
           },
-          contact: {
-            profilePic: 'https://cdn.builder.io/api/v1/image/assets/TEMP/4b8665c4016f61876c702616ebac55b067f060bcadf0f8a7d0b9595055de23bb?placeholderIfAbsent=true&apiKey=c2c728d5f8434b5c80efdb166787b294',
-            name: 'Ayax Christopher',
-            email: 'achristopher@sunpalmdr.com',
-            phone: '1 (347) 792-2157'
-          }
+          contacts: [
+            {
+              profilePic: 'https://ashrob-media.s3.us-east-2.amazonaws.com/rob.jpg',
+              name: 'Robin Hernandez',
+              email: 'royaxsa04@gmail.com',
+              phone: '1 (849) 260-8818'
+            },
+            {
+              profilePic: 'https://cdn.builder.io/api/v1/image/assets/TEMP/4b8665c4016f61876c702616ebac55b067f060bcadf0f8a7d0b9595055de23bb?placeholderIfAbsent=true&apiKey=c2c728d5f8434b5c80efdb166787b294',
+              name: 'Ayax Christopher',
+              email: 'achristopher@sunpalmdr.com',
+              phone: '1 (347) 792-2157'
+            }
+          ] 
         },
-        {
+        /*{
           id: 3,
           tag: "sunshine-2",
           title: t("projects.projects.sunshine_2.title"),
@@ -263,7 +273,7 @@ function GetProjectsData(){
             phone: '1 (849) 260-8818'
           },
           isAvailable: false
-        }
+        }*/
     ];
 
     return ProjectsData;

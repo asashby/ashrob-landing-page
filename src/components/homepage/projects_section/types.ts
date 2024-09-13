@@ -40,11 +40,13 @@ export interface ProjectData {
       banks: boolean,
       golf: boolean,
     };
-    contact: {
-      profilePic: string;
-      name: string;
-      email: string;
-      phone: string;
-    };
+    contacts: contactData[];
     isAvailable: boolean;
+  }
+
+  export interface contactData {
+    profilePic: string;
+    name: string;
+    email: string;
+    phone: string;
   }
