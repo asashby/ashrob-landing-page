@@ -41,7 +41,16 @@
     justify-content: space-between;
     width: 100%;
   }
-  @media (max-width: 991px) {
+  @media (min-width: 769px) {
+    .contact-title {
+      flex-direction: row;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .contact-title {
+      flex-direction: column;
+    }
     .contact-section {
       padding: 0 20px 100px;
     }

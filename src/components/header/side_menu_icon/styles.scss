@@ -1,0 +1,19 @@
+
+
+@media (max-width: 768px) {
+    .icon-container {
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .side-menu-icon {
+        object-fit: contain;
+        object-position: center;
+        width: 35px;
+    }
+}
+
+@media (min-width: 769px) {
+    .icon-container {
+        display: none;
+    }
+}

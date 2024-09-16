@@ -1,4 +1,10 @@
-.language-selector {
+@media (max-width: 768px) {
+  .language-selector {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .language-selector {
     display: flex;
     gap: 18px;
     font-size: 14px;
@@ -8,11 +14,6 @@
     margin-bottom: auto;
     margin-left: auto; 
     margin-right: 0;
-  }
-  @media (max-width: 991px) {
-    .language-selector {
-      white-space: initial;
-    }
   }
   .language-option {
     display: flex;
@@ -35,7 +36,7 @@
     text-transform: uppercase;
     margin: auto 0;
   }
-
   .language-code:hover{
     color: #afcef8;
   }
+}

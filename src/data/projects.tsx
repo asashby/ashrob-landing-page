@@ -27,58 +27,72 @@ function GetProjectsData(){
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-32.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-32.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-44.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-44.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-37.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-37.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-18.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-18.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-21.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-21.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-34.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-34.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-32.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-32.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-33.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-33.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-35.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-35.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-37.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-37.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-38.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-38.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-41.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-41.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-43.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-43.jpg",
+                originalWidth: "80%",
             },
             {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-24.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-24.jpg",
+                originalWidth: "80%",
             },
           ],
           paymentInformation: t("projects.projects.sunshine_1.paymentInformation"),
