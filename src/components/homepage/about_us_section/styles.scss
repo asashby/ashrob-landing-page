@@ -36,8 +36,6 @@
   
   .missionContent {
     display: flex;
-    gap: 50px;
-    padding: 0px 50px;
   }
   
   .imageWrapper {
@@ -62,7 +60,6 @@
   .missionText {
     color: #09326c;
     font-size: 22px;
-    text-align: left;
   }
   
   .learnMoreButton {
@@ -83,20 +80,33 @@
   .learnMoreButton:hover {
     background-color: #0a4085;
   }
+  @media (min-width: 769px) {
+    .missionText {
+      text-align: left;
+    }
+    .missionContent {
+      gap: 50px;
+      padding: 0px 50px;
+    }
+  }
   
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .subtitle {
       font-size: 40px;
       margin-top: 40px;
+      padding: 0 20px;
     }
   
     .missionSection {
-      padding: 0 20px;
       margin-top: 40px;
     }
   
     .missionContent {
       flex-direction: column;
+      padding: 25px 50px;
+    }
+    .missionText {
+      text-align: center;
     }
   
     .imageWrapper,
@@ -113,7 +123,6 @@
     }
   
     .learnMoreButton {
-      margin-top: 40px;
       padding: 21px 20px;
     }
   }

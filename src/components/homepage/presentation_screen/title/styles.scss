@@ -3,9 +3,10 @@
     letter-spacing: 14.4px;
     text-transform: uppercase;
   }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .presentation-title {
       max-width: 100%;
       font-size: 40px;
+      letter-spacing: 8px;
     }
   }

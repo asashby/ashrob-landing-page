@@ -17,10 +17,10 @@ const Footer: React.FC<FooterProps> = ({ copyrightYear, companyName }) => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="footer-section">
+        <div className="logo-section">
           <Logo />
         </div>
-        <div className="footer-section">
+        <div className="links-section">
           <FooterLinks 
             about_us={t("footer.about_us")}
             services={t("footer.services")}

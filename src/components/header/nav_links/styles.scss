@@ -1,25 +1,29 @@
-.nav-links {
-    display: flex;
-    gap: 40px;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto; 
-    margin-right: 0;
-  }
-  @media (max-width: 991px) {
+
+  @media (max-width: 768px) {
     .nav-links {
-      max-width: 100%;
+      display: none;
     }
   }
-  .nav-link {
-    flex-grow: 1;
-    margin: auto 0;
-    text-decoration: none;
-    color: inherit;
-  }
 
-  .nav-link:hover{
-    color: #afcef8;
-    cursor: pointer;
+  @media (min-width: 769px) {
+    .nav-links {
+      display: flex;
+      gap: 40px;
+      text-align: center;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto; 
+      margin-right: 0;
+    }
+    .nav-link {
+      flex-grow: 1;
+      margin: auto 0;
+      text-decoration: none;
+      color: inherit;
+    }
+  
+    .nav-link:hover{
+      color: #afcef8;
+      cursor: pointer;
+    }
   }

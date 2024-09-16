@@ -6,7 +6,7 @@
         "description_2" : "Contáctanos ahora:",
         "first_name" : "Nombre",
         "last_name" : "Apellidos",
-        "email" : "Tu Correo",
+        "email" : "Correo electrónico",
         "phone" : "Teléfono",
         "message" : "Mensaje",
         "btn_prompt" : "Enviar"
