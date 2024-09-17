@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@cascadia-code/scroll-to-hash-element": "^2.0.2",
+    "@coreui/coreui": "^5.1.2",
+    "@coreui/react": "^5.3.0",
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
