@@ -1,4 +1,4 @@
-/*@import "~react-image-gallery/styles/scss/image-gallery.scss";*/
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 .property-listing {
   display: flex;
@@ -58,10 +58,9 @@
   height: 18px;
 }
 
-.carousel-image-container{
-  width: 90%;
-  margin: 0 auto;
-  border-radius: 30px;
+.property-main {
+  margin-top: 30px;
+  padding: 40px 80px;
 }
 
 .property-details-header {
@@ -140,6 +139,7 @@
 
 .specific-details-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -204,6 +204,23 @@
 .nearby-icon {
   width: 30px;
   height: 30px;
+}
+
+.location {
+  width: max-content;
+  margin-left: 0; 
+  margin-right: auto;
+}
+
+.location-container {
+  width: max-content;
+  margin-left: 0; 
+  margin-right: auto;
+}
+
+.location-frame {
+  margin-left: 0; 
+  margin-right: auto;
 }
 
 .contact-info {
@@ -275,58 +292,22 @@
         calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)),
         var(--r) calc(50% - var(--f)/2));
   }
-  .specific-details-container {
-    flex-direction: row;
-  }
 
-  .property-main {
-    margin-top: 30px;
-    padding: 40px 80px;
-  }
-  
-  .location-frame {
-    margin-left: 0; 
-    margin-right: auto;
-    width: 600px;
-    height: 450px;
-  }
-  
-  .location-container {
+  .image-gallery-container{
     width: max-content;
-    margin-left: 0; 
-    margin-right: auto;
-  }
-
-  .location {
-    width: max-content;
-    margin-left: 0; 
-    margin-right: auto;
   }
 }
 
 @media (max-width: 768px) {
-
-  .location {
-    width: 100%;
-  }
-
-  .location-container {
-    width: 100%;
-  }
   
-  .location-frame {
-    margin: 0 auto;
-    width: 100%;
-    height: 350px;
+  .image-gallery-container{
+    width: 90%;
   }
 
-  .property-main {
-    margin-top: 15px;
-    padding: 10px 20px;
-  }
-  .specific-details-container {
+  .image-gallery {
     flex-direction: column;
   }
+
   .property-title,
   .property-price {
     font-size: 32px;
