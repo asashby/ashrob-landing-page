@@ -104,7 +104,7 @@ function GetProjectsData(){
               parkingSpots: '2'
             },
             surfaces: {
-              landArea: '100-160 m²',
+              landArea: '160 m²',
               livingArea: '100-160 m²'
             }
           },
@@ -129,7 +129,7 @@ function GetProjectsData(){
             {
               profilePic: 'https://ashrob-media.s3.us-east-2.amazonaws.com/rob.jpg',
               name: 'Robin Hernandez',
-              email: 'royaxsa04@gmail.com',
+              email: 'ashrobbuilding@gmail.com',
               phone: '1 (849) 260-8818'
             }
           ]
@@ -227,7 +227,7 @@ function GetProjectsData(){
             {
               profilePic: 'https://ashrob-media.s3.us-east-2.amazonaws.com/rob.jpg',
               name: 'Robin Hernandez',
-              email: 'royaxsa04@gmail.com',
+              email: 'ashrobbuilding@gmail.com',
               phone: '1 (849) 260-8818'
             },
             {
@@ -283,7 +283,7 @@ function GetProjectsData(){
           contact: {
             profilePic: 'https://ashrob-media.s3.us-east-2.amazonaws.com/rob.jpg',
             name: 'Robin Hernandez',
-            email: 'royaxsa04@gmail.com',
+            email: 'ashrobbuilding@gmail.com',
             phone: '1 (849) 260-8818'
           },
           isAvailable: false
