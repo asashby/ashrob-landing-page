@@ -7,7 +7,7 @@ export interface ProjectData {
     statusColor: string;
     description: string;
     imageUrl: string;
-    imageGallery: any;
+    imageGallery: ImageData[];
     priceText: string,
     placesNearby: string[];
     paymentInformation: string;
@@ -42,6 +42,11 @@ export interface ProjectData {
     };
     contacts: contactData[];
     isAvailable: boolean;
+  }
+
+  export interface ImageData {
+    url: string,
+    caption: string,
   }
 
   export interface contactData {
