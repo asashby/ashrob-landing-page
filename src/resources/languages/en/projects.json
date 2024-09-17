@@ -7,16 +7,16 @@
         "projects" : {
             "sunshine_1" : {
                 "title" : "Sunshine I",
-                "description" : "Project of 17 duplex-styled Villas with modern and elegant design just 3 minutes from the beach.\nClosed area with 24-hour security checkpoint and vehicular entrance.\nVillas with 2 and 3 bedrooms with their bathroom.",
+                "description" : "Beautiful and exclusive residential project of only 17 Villas, only 8 available, 15 minutes from the Airport and 3 minutes from the beach and the main Malls, Shops, Schools, Supermarkets and Banks. Closed complex with 24-hour security, security checkpoint and vehicle entrance with remote control barrier. 2- and 3-bedroom villas with Jacuzzi.",
                 "location" : "Bavaro, Punta Cana, DR",
-                "priceText" : "From US$185,000",
+                "priceText" : "From US$180,000",
                 "placesNearby" : {
                     "beach" : "Bavaro Beach",
                     "downtown" : "Downtown Punta Cana",
                     "airport" : "Punta Cana International airport",
                     "island" : "Saona Island"
                 },
-                "paymentInformation" : "Reserve with just $3,000.\nContract signing: 20% within 30 days.\nDuring construction: 30%.\nDelivery: 50%."
+                "paymentInformation" : "Reserve with just $3,000.\nContract signing: 20% within 30 days.\nDuring construction: 20%.\nDelivery: 60%."
             },
             "sunpalm_resident_i" : {
                 "title" : "Sun Palm Resident I",
