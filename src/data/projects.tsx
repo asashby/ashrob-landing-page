@@ -25,74 +25,60 @@ function GetProjectsData(){
           ],
           imageGallery: [
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-32.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-32.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-32.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-32.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-44.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-44.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-44.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-44.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-37.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-37.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-37.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-37.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-18.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-18.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-18.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-18.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-21.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-21.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-21.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-21.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-34.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-34.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-34.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-34.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-32.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-32.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-32.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-32.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-33.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-33.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-33.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-33.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-35.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-35.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-35.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-35.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-37.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-37.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-37.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-37.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-38.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-38.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-38.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-38.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-41.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-41.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-41.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-41.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-43.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-43.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-43.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-43.jpg"
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-24.jpg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-24.jpg",
-                originalWidth: "80%",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-24.jpg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-24.jpg"
             },
           ],
           paymentInformation: t("projects.projects.sunshine_1.paymentInformation"),
@@ -153,44 +139,44 @@ function GetProjectsData(){
           ],
           imageGallery: [
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/render-front_2.png",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/render-front_2.png",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/render-front_2.png",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/render-front_2.png",
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/interior-1.png",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/interior-1.png",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/interior-1.png",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/interior-1.png",
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-3.jpeg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-3.jpeg",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-3.jpeg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-3.jpeg",
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/vx1.png",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/vx1.png",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/vx1.png",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/vx1.png",
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/vx3-1.png",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/vx3-1.png",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/vx3-1.png",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/vx3-1.png",
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-1.jpeg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-1.jpeg",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-1.jpeg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-1.jpeg",
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-2-1.jpeg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-2-1.jpeg",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-2-1.jpeg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.16-PM-2-1.jpeg",
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.15-PM.jpeg",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.15-PM.jpeg",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.15-PM.jpeg",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/WhatsApp-Image-2021-10-05-at-9.03.15-PM.jpeg",
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/Dise-Arq1.png",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/Dise-Arq1.png",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/Dise-Arq1.png",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/Dise-Arq1.png",
             },
             {
-                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/Dise-Arq2.png",
-                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/Dise-Arq2.png",
+                url: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/Dise-Arq2.png",
+                caption: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/Dise-Arq2.png",
             },
           ],
           paymentInformation: t("projects.projects.sunpalm_resident_i.paymentInformation"),
