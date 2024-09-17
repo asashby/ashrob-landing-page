@@ -1,16 +1,22 @@
 import React from 'react';
-import '../styles.scss';
-import MyGallery from './myGallery';
+import './styless.scss';
+import { CCarousel, CCarouselItem, CImage } from '@coreui/react';
 
 interface ImageGalleryComponentProps {
-  images: string[];
+  images: any[];
 }
 
 const ImageGalleryComponent: React.FC<ImageGalleryComponentProps> = ({images}) => {
 
   return (
-    <div className='image-gallery-container'>
-      <MyGallery images={images} />
+    <div className='carousel-image-container'>
+      <CCarousel controls indicators transition='crossfade'>
+        {images.map((image) => (
+          <CCarouselItem>
+            <CImage className="d-block w-100" src={image.original} alt={image.thumbnail}/>
+          </CCarouselItem>
+        ))}
+      </CCarousel>
     </div>
   );
 };
