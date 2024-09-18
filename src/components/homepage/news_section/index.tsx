@@ -12,19 +12,19 @@ const NewsSection: React.FC = () => {
       date: t("blog.articles.article_1.date"),
       title: t("blog.articles.article_1.title"),
       excerpt: t("blog.articles.article_1.description"),
-      image: "https://cdn.builder.io/api/v1/image/assets/TEMP/e775e325d568b975a4d97a33e78e3641553b28cdf889b9e1a325403d9c4d5098?placeholderIfAbsent=true&apiKey=c2c728d5f8434b5c80efdb166787b294"
+      image: "https://firebasestorage.googleapis.com/v0/b/ashrob-landing-page-6c3fe.appspot.com/o/architectural-map.jpg?alt=media&token=e23e91e5-d982-4597-b20f-71733eb449c7"
     },
     {
       date: t("blog.articles.article_2.date"),
       title: t("blog.articles.article_2.title"),
       excerpt: t("blog.articles.article_2.description"),
-      image: "https://cdn.builder.io/api/v1/image/assets/TEMP/e775e325d568b975a4d97a33e78e3641553b28cdf889b9e1a325403d9c4d5098?placeholderIfAbsent=true&apiKey=c2c728d5f8434b5c80efdb166787b294"
+      image: "https://firebasestorage.googleapis.com/v0/b/ashrob-landing-page-6c3fe.appspot.com/o/pexels-cottonbro-5077049.jpg?alt=media&token=447e5c14-2565-4671-9b4e-754bc4684ff3"
     },
     {
       date: t("blog.articles.article_3.date"),
       title: t("blog.articles.article_3.title"),
       excerpt: t("blog.articles.article_3.description"),
-      image: "https://cdn.builder.io/api/v1/image/assets/TEMP/e775e325d568b975a4d97a33e78e3641553b28cdf889b9e1a325403d9c4d5098?placeholderIfAbsent=true&apiKey=c2c728d5f8434b5c80efdb166787b294"
+      image: "https://firebasestorage.googleapis.com/v0/b/ashrob-landing-page-6c3fe.appspot.com/o/punta-cana.jpg?alt=media&token=bbe2b4ca-ee72-4c76-b586-8dc08ba1bb8c"
     }
   ];
 

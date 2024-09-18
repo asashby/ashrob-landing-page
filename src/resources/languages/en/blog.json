@@ -3,19 +3,19 @@
         "title" : "News & Articles",
         "articles" : {
             "article_1" : {
-                "title" : "Loren ipsum dolor sit amet",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title" : "Why Buying a Property During the Architectural Map Phase is a Smart Investment",
+                "description" : "Investing in real estate is one of the most reliable ways to build wealth, and one strategy that has been gaining popularity is purchasing property while it's still in the architectural map phase. This approach, often referred to as \"buying off-plan,\" offers a range of benefits for both first-time buyers and seasoned investors. By securing a property before construction begins, buyers can often gain access to lower prices, customization options, and the potential for significant long-term returns.",
                 "date" : "September 10th, 2024"
             },
             "article_2" : {
-                "title" : "Loren ipsum dolor sit amet",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "date" : "September 10th, 2024"
+                "title" : "How to Invest in Airbnb: A Guide to Buying Property and Renting it Out",
+                "description" : "The rise of Airbnb has transformed the real estate and travel industries, offering a lucrative opportunity for investors looking to generate passive income. By purchasing a property and listing it on Airbnb, you can tap into the ever-growing demand for short-term vacation rentals. However, succeeding as an Airbnb host requires thoughtful planning, sound investment decisions, and strategic management. Here's a guide to help you get started.",
+                "date" : "August 1st, 2024"
             },
             "article_3" : {
-                "title" : "Loren ipsum dolor sit amet",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "date" : "September 10th, 2024"
+                "title" : "Dominican Republic and Punta Cana: The Crown Jewels of Caribbean Travel",
+                "description" : "The Dominican Republic has long been recognized as a premier destination in the Caribbean, and its crown jewel, Punta Cana, continues to captivate travelers from all over the globe. From pristine beaches and luxurious resorts to vibrant culture and adventure-filled excursions, the Dominican Republic offers a unique blend of experiences that make it the best travel destination in the region.",
+                "date" : "July 16th, 2024"
             }
         },
         "btn_prompt" : "Learn more"
