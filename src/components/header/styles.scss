@@ -9,12 +9,37 @@
     top: 0px;
     z-index: 99;
   }
+
+  .icons-container {
+    display: flex;
+  }
   @media (max-width: 768px) {
     .navbar {
       padding-right: 20px;
+      flex-direction: column;
+    }
+    .desktop {
+      display: none;
+    }
+
+    .mobile {
+      display: flex;
+    }
+    .is-open {
+      border-top: 1px solid #fff;
+      margin-top: 20px;
+      padding-top: 10px;
     }
   }
   @media (min-width: 769px) {
+    .mobile {
+      display: none;
+    }
+    
+    .desktop {
+      display: flex;
+    }
+
     .navbar {
       gap: 40px 66px;
     }
@@ -23,9 +48,9 @@
       gap: 40px;
     }
   }
+  
 
   .navbar-actions-container{
-    display: flex;
     align-items: right;
     margin-top: auto;
     margin-bottom: auto;

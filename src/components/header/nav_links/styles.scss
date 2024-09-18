@@ -1,14 +1,33 @@
+  .nav-links {
+    gap: 40px;
+  }
+
+  .nav-link {
+    flex-grow: 1;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .nav-link:hover{
+    color: #afcef8;
+    cursor: pointer;
+  }
 
   @media (max-width: 768px) {
     .nav-links {
-      display: none;
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-link {
+      margin-left: auto;
+      margin-right: 0;
+      font-size: large;
     }
   }
 
   @media (min-width: 769px) {
     .nav-links {
       display: flex;
-      gap: 40px;
       text-align: center;
       margin-top: auto;
       margin-bottom: auto;
@@ -16,14 +35,6 @@
       margin-right: 0;
     }
     .nav-link {
-      flex-grow: 1;
-      margin: auto 0;
-      text-decoration: none;
-      color: inherit;
-    }
-  
-    .nav-link:hover{
-      color: #afcef8;
-      cursor: pointer;
+      margin: 0 auto;
     }
   }
