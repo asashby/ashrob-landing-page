@@ -3,19 +3,19 @@
         "title" : "Noticias & Artículos",
         "articles" : {
             "article_1" : {
-                "title" : "Loren ipsum dolor sit amet",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "title" : "Por qué comprar una propiedad durante la fase del mapa arquitectónico es una inversión inteligente",
+                "description" : "Invertir en bienes raíces es una de las formas más confiables de generar riqueza, y una estrategia que ha ido ganando popularidad es comprar propiedades mientras aún se encuentran en la fase del mapa arquitectónico. Este enfoque, a menudo denominado \"compra sobre plano\", ofrece una variedad de beneficios tanto para compradores primerizos como para inversores experimentados. Al adquirir una propiedad antes de que comience la construcción, los compradores a menudo pueden obtener acceso a precios más bajos, opciones de personalización y el potencial de obtener importantes retornos a largo plazo.",
                 "date" : "10 de Septiembre de 2024"
             },
             "article_2" : {
-                "title" : "Loren ipsum dolor sit amet",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "date" : "10 de Septiembre de 2024"
+                "title" : "Cómo invertir en Airbnb: una guía para comprar una propiedad y alquilarla",
+                "description" : "El auge de Airbnb ha transformado las industrias inmobiliaria y de viajes, ofreciendo una oportunidad lucrativa para los inversores que buscan generar ingresos pasivos. Al comprar una propiedad y publicarla en Airbnb, puede aprovechar la creciente demanda de alquileres vacacionales a corto plazo. Sin embargo, tener éxito como anfitrión en Airbnb requiere una planificación cuidadosa, decisiones de inversión acertadas y una gestión estratégica. Aquí tienes una guía que te ayudará a empezar.",
+                "date" : "1 de Agosto de 2024"
             },
             "article_3" : {
-                "title" : "Loren ipsum dolor sit amet",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "date" : "10 de Septiembre de 2024"
+                "title" : "República Dominicana y Punta Cana: las joyas de la corona de los viajes al Caribe",
+                "description" : "La República Dominicana ha sido reconocida durante mucho tiempo como un destino de primer nivel en el Caribe, y su joya de la corona, Punta Cana, continúa cautivando a viajeros de todo el mundo. Desde playas vírgenes y complejos turísticos de lujo hasta una cultura vibrante y excursiones llenas de aventuras, la República Dominicana ofrece una combinación única de experiencias que la convierten en el mejor destino de viaje de la región.",
+                "date" : "16 de Julio de 2024"
             }
         },
         "btn_prompt" : "Ver más"
