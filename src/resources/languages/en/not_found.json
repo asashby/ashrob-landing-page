@@ -1,0 +1,7 @@
+{
+    "not_found" : {
+        "title" : "Oh snap! Page not found",
+        "subtitle" : "The page you are looking for is not here. Check the URL or try again.",
+        "btn_prompt" : "Go to Homepage"
+    }
+}
