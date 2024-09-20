@@ -27,11 +27,7 @@ import project_details_es from "./resources/languages/es/project_details.json";
 
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
-
-import Header from './components/header/index.tsx';
-import HomePage from './components/homepage/index.tsx';
-import Footer from './components/footer/index.tsx';
-import ProjectDetailPage from './components/project_detail/index.tsx';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 i18next
   .init({
@@ -66,9 +62,11 @@ i18next
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <HelmetProvider>
       <I18nextProvider i18n={i18next}>
         <App />
       </I18nextProvider>
+    </HelmetProvider>
   </React.StrictMode>
 );
 
