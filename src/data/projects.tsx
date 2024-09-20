@@ -94,6 +94,11 @@ function GetProjectsData(){
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-09-11_14-09-24.jpg",
                 originalWidth: "80%",
             },
+            {
+                original: "https://firebasestorage.googleapis.com/v0/b/ashrob-landing-page-6c3fe.appspot.com/o/planta%20tipo%20b-1.png?alt=media&token=39d91d5e-750a-48c7-9d6e-72ba7c02d422",
+                thumbnail: "https://firebasestorage.googleapis.com/v0/b/ashrob-landing-page-6c3fe.appspot.com/o/planta%20tipo%20b-1.png?alt=media&token=39d91d5e-750a-48c7-9d6e-72ba7c02d422",
+                originalWidth: "80%",
+            },
           ],
           paymentInformation: t("projects.projects.sunshine_1.paymentInformation"),
           areas: {
