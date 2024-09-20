@@ -1,0 +1,7 @@
+{
+    "not_found" : {
+        "title" : "¡Oh vaya! No se encontró la página",
+        "subtitle" : "La página que buscas no está aquí. Verifica el enlace o inténtalo otra vez.",
+        "btn_prompt" : "Volver al inicio"
+    }
+}

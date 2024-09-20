@@ -14,6 +14,7 @@ import projects_en from "./resources/languages/en/projects.json";
 import services_en from "./resources/languages/en/services.json";
 import footer_en from "./resources/languages/en/footer.json";
 import project_details_en from "./resources/languages/en/project_details.json";
+import not_found_en from "./resources/languages/en/not_found.json";
 
 import header_es from "./resources/languages/es/header.json";
 import about_us_es from "./resources/languages/es/about_us.json";
@@ -24,10 +25,11 @@ import projects_es from "./resources/languages/es/projects.json";
 import services_es from "./resources/languages/es/services.json";
 import footer_es from "./resources/languages/es/footer.json";
 import project_details_es from "./resources/languages/es/project_details.json";
+import not_found_es from "./resources/languages/es/not_found.json";
 
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from 'react-helmet-async';
 
 i18next
   .init({
@@ -44,6 +46,7 @@ i18next
       services: services_en,
       footer: footer_en,
       project_details: project_details_en,
+      not_found: not_found_en
     },
     es: {
       header: header_es,
@@ -54,7 +57,8 @@ i18next
       projects: projects_es,
       services: services_es,
       footer: footer_es,
-      project_details: project_details_es
+      project_details: project_details_es,
+      not_found: not_found_es
     }
   }
 })
