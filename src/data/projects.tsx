@@ -25,6 +25,11 @@ function GetProjectsData(){
           ],
           imageGallery: [
             {
+                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/WhatsApp+Video+2024-11-12+at+15.36.16.mp4",
+                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/WhatsApp+Video+2024-11-12+at+15.36.16.mp4",
+                originalWidth: "80%",
+            },
+            {
                 original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-32.jpg",
                 thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/photo_2024-08-20_15-52-32.jpg",
                 originalWidth: "80%",
