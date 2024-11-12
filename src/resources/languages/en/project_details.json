@@ -3,6 +3,7 @@
         "description": "Description",
         "nearby": "What's nearby?",
         "payment_info": "Payment information",
+        "payment_info_file_caption": "See payment system details",
         "areas": "Areas",
         "spaces_title": "Spaces",
         "spaces": {
