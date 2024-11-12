@@ -34,6 +34,9 @@ const PropertyDetails: React.FC<PropertyDetailsProps> = ({project}) => {
         <ul className="payment-info">
           {project.paymentInformation}
         </ul>
+        <a className="payment-info-file" href='https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/Sistema+de+pagos.pdf' download="Sistema_de_pagos.pdf" target="_blank">
+          {t("project_details.payment_info_file_caption")}
+        </a>
       </div>
     </>
   );

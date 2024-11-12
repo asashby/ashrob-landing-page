@@ -95,6 +95,11 @@ function GetProjectsData(){
                 originalWidth: "80%",
             },
             {
+                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/WhatsApp+Image+2024-11-12+at+15.38.02.jpeg",
+                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-1/WhatsApp+Image+2024-11-12+at+15.38.02.jpeg",
+                originalWidth: "80%",
+            },
+            {
                 original: "https://firebasestorage.googleapis.com/v0/b/ashrob-landing-page-6c3fe.appspot.com/o/planta%20tipo%20b-1.png?alt=media&token=39d91d5e-750a-48c7-9d6e-72ba7c02d422",
                 thumbnail: "https://firebasestorage.googleapis.com/v0/b/ashrob-landing-page-6c3fe.appspot.com/o/planta%20tipo%20b-1.png?alt=media&token=39d91d5e-750a-48c7-9d6e-72ba7c02d422",
                 originalWidth: "80%",
