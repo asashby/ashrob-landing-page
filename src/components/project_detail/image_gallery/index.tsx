@@ -13,7 +13,14 @@ const ImageGalleryComponent: React.FC<ImageGalleryComponentProps> = ({images}) =
       <CCarousel controls indicators transition='crossfade'>
         {images.map((image) => (
           <CCarouselItem>
-            <CImage className="d-block w-100" src={image.original} alt={image.thumbnail}/>
+            {
+              (image.original.slice(-3) == "mp4") 
+              ? <video width="100%" controls className="media">
+                <source src={image.original} />
+                Your browser does not support the video tag.
+              </video>
+              : <CImage className="d-block w-100" src={image.original} alt={image.thumbnail}/>
+            }
           </CCarouselItem>
         ))}
       </CCarousel>
