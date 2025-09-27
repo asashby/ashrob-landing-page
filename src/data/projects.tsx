@@ -253,6 +253,81 @@ function GetProjectsData(){
             }
           ] 
         },
+        {
+          id: 3,
+          tag: "sunshine-tower",
+          isAvailable: true,
+          title: t("projects.projects.sunshine_tower.title"),
+          location: t("projects.projects.sunshine_tower.location"),
+          status: t("projects.coming_soon"),
+          statusColor: "rgb(169, 5, 234)",
+          description: t("projects.projects.sunshine_tower.description"),
+          imageUrl: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-tower/location.png",
+          imageGallery: [
+            {
+                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-tower/location.png",
+                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-tower/location.png",
+            },
+            {
+                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-tower/arquitectonico+apart.+frente+(2).jpg",
+                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-tower/arquitectonico+apart.+frente+(2).jpg",
+            },
+            {
+                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-tower/aquitectonico+torre+Sunshine+(1).jpg",
+                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-tower/aquitectonico+torre+Sunshine+(1).jpg",
+            },
+            {
+                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-tower/PLANO+SOLAR+14-1.png",
+                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunshine-tower/PLANO+SOLAR+14-1.png",
+            },
+            {
+                original: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/Dise-Arq2.png",
+                thumbnail: "https://ashrob-media.s3.us-east-2.amazonaws.com/sunpalm-resident-i/Dise-Arq2.png",
+            },
+          ],
+          priceText: '',
+          placesNearby: [
+            t("projects.projects.sunshine_tower.placesNearby.downtown"),
+          ],
+          paymentInformation: '',
+          areas: {
+            spaces: {
+              floors: '',
+              bathrooms: '',
+              bedrooms: '',
+              parkingSpots: ''
+            },
+            surfaces: {
+              landArea: '',
+              livingArea: ''
+            }
+          },
+          amenities: {
+            backyard: false,
+            kitchen: false,
+            pool: false,
+            laundry: false
+          },
+          mapLocation: 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3784.2886724473133!2d-69.91862827667573!3d18.47057891837786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDI4JzE0LjEiTiA2OcKwNTUnMDcuMSJX!5e0!3m2!1ses-419!2sdo!4v1758992996433!5m2!1ses-419!2sdo',
+          closeTo: {
+            park: false,
+            school: false,
+            shops: false,
+            gym: false,
+            hospital: false,
+            airport: false,
+            banks: false,
+            golf: false
+          },
+          contacts: [
+            {
+              profilePic: 'https://ashrob-media.s3.us-east-2.amazonaws.com/rob.jpg',
+              name: 'Robin Hernandez',
+              email: 'ashrobbuilding@gmail.com',
+              phone: '1 (849) 260-8818'
+            }
+          ]
+        }
         /*{
           id: 3,
           tag: "sunshine-2",

@@ -4,6 +4,7 @@
         "on_sale" : "On sale",
         "almost_gone" : "Almost gone",
         "sold_out" : "Sold out",
+        "coming_soon" : "Coming soon",
         "projects" : {
             "sunshine_1" : {
                 "title" : "Sunshine I",
@@ -43,6 +44,16 @@
                     "island" : "Saona Island"
                 },
                 "paymentInformation" : "Reserve with just $2,000.\nContract signing: 20% within 30 days.\nDuring construction: 30%.\nDelivery: 50%."
+            },
+            "sunshine_tower" : {
+                "title" : "Sunshine Tower",
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "location" : "Distrito Nacional, Santo Domingo, DR",
+                "priceText" : "",
+                "placesNearby" : {
+                    "downtown" : "Downtown Santo Domingo"
+                },
+                "paymentInformation" : "Coming soon"
             }
         },
         "details_btn" : "Details"
