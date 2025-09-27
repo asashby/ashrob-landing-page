@@ -4,6 +4,7 @@
         "on_sale" : "En venta",
         "almost_gone" : "Por agotarse",
         "sold_out" : "Vendido",
+        "coming_soon" : "Próximamente",
         "projects" : {
             "sunshine_1" : {
                 "title" : "Sunshine I",
@@ -43,6 +44,16 @@
                     "island" : "Isla Saona"
                 },
                 "paymentInformation" : "Reserva con solo US$2,000.\nFirma del contrato: 20% dentro de 30 días.\nDurante la construcción: 30%.\nEntrega: 50%."
+            },
+            "sunshine_tower" : {
+                "title" : "Sunshine Tower",
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "location" : "Distrito Nacional, Santo Domingo, RD",
+                "priceText" : "",
+                "placesNearby" : {
+                    "downtown" : "Downtown Santo Domingo"
+                },
+                "paymentInformation" : "Próximamente"
             }
         },
         "details_btn" : "Detalles"
